@@ -1,4 +1,4 @@
-# Collective project
+# Gulp-task-runner-practice
 
 ## Overview
 
