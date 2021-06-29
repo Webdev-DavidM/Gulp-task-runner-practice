@@ -26,12 +26,6 @@ Built with
    as image optimisation, transpiling SASS to css and minifying Javascript
 -  Developed from a Photoshop design prototype
 
-## Still to do
-
--  Resolve issue with gulp-babel plug-in which is causing a runtime error, for
-   now it has been omitted until the issue is solved so the website works fro
-   the time being.
-
 ## To run locally
 
 To run this project please download then open the folder in the terminal/text editor. 
