@@ -33,12 +33,14 @@ gulp.task('imageMin', async () => {
 gulp.task('minifyAndCombineJS', async () => {
    await gulp
       .src('src/js/*.js')
-      /* I am getting a runtime error when using this package to transpile es6 to es5 so I have removed it for now until I can investigate the issue further
-      /*  .pipe(
+      /* I am getting a runtime error when using this package to transpile es6 to es5 so I have removed it for now until I can investigate the issue further */
+
+      .pipe(
          babel({
-            presets: ['babel-preset-env'],
+            plugins: ['@babel/plugin-transform-runtime'],
          })
-      )  */
+      )
+
       .pipe(uglify())
       .pipe(gulp.dest('dist/js'));
 });
