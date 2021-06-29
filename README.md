@@ -23,7 +23,7 @@ Built with
 -  CSS flexbox
 -  Mobile-first workflow
 -  Gulp used as a task runner for the project to automate key tasks such
-   as image optimisation, transpiling SASS to css and minifying Javascript
+   as image optimisation, transpiling SASS to css, using Babel to transpile ES6 to ES5 and minifying Javascript
 -  Developed from a Photoshop design prototype
 
 ## To run locally
