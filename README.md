@@ -12,7 +12,7 @@ the user.
 
 ## Screenshot
 
-![](/src/images/desktop.png), ![](/src/images/desktop.png)
+![](/src/images/desktop.png)
 
 ## My process
 
